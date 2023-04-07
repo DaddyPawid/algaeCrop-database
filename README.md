@@ -1,14 +1,13 @@
 Overview
 
-The AlgaeCrop SQLite database contains information on microalgae and their metabolites, such as lipid content, protein content, fatty acids, amino acids, vitamins, and more. The database consists of two types of tables:
+The AlgaeCrop SQLite database contains information on microalgae and their metabolites, such as lipid content, protein content, fatty acids, amino acids, vitamins, and more. Data has been normalized to display common unit, and data point have been extrapulated from existing data when necessary.
 
-Sources Table: 
 
-Contains information on the sources of data used in the AlgaeCrop project, such as the reference ID, DOI, Harvard reference, title, link, input data, version, and keywords.
+The database consists of two types of tables:
 
-Data Tables: 
+Sources Table: Contains information on the sources of data used in the AlgaeCrop project, such as the reference ID, DOI, Harvard reference, title, link, input data, version, and keywords.
 
-Contains information from various sources on microalgae and their metabolites. Each data table is named by an ID indicating the type of data it contains, such as lipid for lipid content data. Each data table has a column indicating the source it is from (source_id) and the sample number within that source (run_id). Depending on the type of data, the table may contain additional columns for information on the metric unit, method of acquiring data, and data points.
+Data Tables: Contains information from various sources on microalgae and their metabolites. Each data table is named by an ID indicating the type of data it contains, such as lipid for lipid content data. Each data table has a column indicating the source it is from (source_id) and the sample number within that source (run_id). Depending on the type of data, the table may contain additional columns for information on the metric unit, method of acquiring data, and data points.
 
 Accessing the Database
 
