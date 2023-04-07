@@ -1,4 +1,4 @@
-Overview
+# Overview
 
 The AlgaeCrop SQLite database contains information on microalgae and their metabolites, such as lipid content, protein content, fatty acids, amino acids, vitamins, and more. Data has been normalized to display common unit, and data point have been extrapulated from existing data when necessary.
 
@@ -15,7 +15,7 @@ The AlgaeCrop SQLite database is available on GitHub as a .sqlite file. To acces
 
 Example Code (load data in to a pandas table in python):
 
-# import libraries
+```python
 import sqlite3
 import pandas as pd
 
